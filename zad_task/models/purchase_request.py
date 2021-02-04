@@ -54,7 +54,7 @@ class PurchaseRequest(models.Model):
 
     def approve(self):
         self._action_send_email()
-        # self.state = 'approve'
+        self.state = 'approve'
 
     # TODO function to send email to all user in purchase manager group
     def _action_send_email(self):
