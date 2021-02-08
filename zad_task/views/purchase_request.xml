@@ -46,7 +46,7 @@
                                         <field name="description"/>
                                         <field name="quantity"/>
                                         <field name="cost_price" readonly="1"/>
-                                        <field name="total"/>
+                                        <field name="total"  sum="sum of total"/>
                                     </tree>
                                 </field>
                                 <group class="oe_subtotal_footer oe_right">
