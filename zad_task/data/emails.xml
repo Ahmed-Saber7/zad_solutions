@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <!--        <record id="mail_template_data_purchase_request" model="mail.template">-->
-        <!--            <field name="model">purchase.request</field>-->
-        <!--            <field name="name">Request : Purchase Request</field>-->
-        <!--            <field name="email_from">proahmedsabir@gmail.com</field>-->
-        <!--            <field name="email_to">proahmedsabir@outlook.com</field>-->
-        <!--            <field name="auto_delete" eval="False"/>-->
-        <!--            <field name="body_html">-->
-        <!--                <![CDATA[-->
-        <!--            <div style="margin: 10px auto;direction:ltr;">-->
-        <!--                <p> Purchase Request / ${object.request_name}  - has been approved </p>-->
-        <!--            </div>-->
-        <!--            ]]>-->
-        <!--            </field>-->
-        <!--        </record>-->
-
         <record id="mail_template_data_purchase_request" model="mail.template">
             <field name="name">Request : Purchase Request</field>
             <field name="email_from">proahmedsabir@gmail.com</field>
