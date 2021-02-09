@@ -24,9 +24,14 @@
                         <field name="state" widget="statusbar"/>
                     </header>
                     <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="request_name" placeholder="Request Name"
+                                       attrs="{'readonly': [('state', 'in', ('approve', 'cancel', 'reject'))]}"/>
+                            </h1>
+                        </div>
                         <group>
                             <group>
-                                <field name="request_name" attrs="{'readonly': [('state', 'in', ('approve', 'cancel', 'reject'))]}"/>
                                 <field name="requested_by" attrs="{'readonly': [('state', 'in', ('approve', 'cancel', 'reject'))]}"/>
                                 <field name="company_id" invisible="1"/>
                             </group>
